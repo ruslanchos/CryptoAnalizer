@@ -15,8 +15,10 @@ public class Application {
     }
 
     public Result run(String[] args) {
+        //Пришли данные аргументов из ConsoleRunner
         if (args.length > 0) {
-            String action = args[0];
+            String action = args[0]; //encode
+            //параметры: text.txt encode.txt  key
             String[] parameters = Arrays.copyOfRange(args, 1, args.length);
 
             Result result = mainController.doAction(action, parameters);

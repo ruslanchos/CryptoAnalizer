@@ -4,6 +4,7 @@ import ru.javarush.bityutskih.cryptoanalizer.entity.Result;
 
 public class ConsoleRunner {
     public static void main(String[] args) {
+        //Пришли аргументы: text.txt encode.txt со значением ключа "__"
         final Application application = new Application();
         Result result = application.run(args);
         System.out.println(result);
