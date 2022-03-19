@@ -3,10 +3,10 @@ package ru.javarush.bityutskih.cryptoanalizer.commands;
 import ru.javarush.bityutskih.cryptoanalizer.entity.Result;
 import ru.javarush.bityutskih.cryptoanalizer.entity.ResultCode;
 
-public class Encoder implements Action{
+public class Analyse implements Action{
     @Override
     public Result execute(String[] parameters) {
-        //TODO ENCODER выполнился
-        return new Result( "Encode successful", ResultCode.OK);
+        //TODO Analyze выполнился
+        return new Result( "Analyze successful", ResultCode.OK);
     }
 }
